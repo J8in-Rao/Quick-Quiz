@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Option button dimensions -->
+    <dimen name="option_margin_horizontal">12dp</dimen>
+    <dimen name="option_margin_vertical">6dp</dimen>
+    <dimen name="option_padding">16dp</dimen>
+    
+    <!-- Card dimensions -->
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_radius">20dp</dimen>
+    
+    <!-- Button dimensions -->
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="button_radius">16dp</dimen>
+    <dimen name="button_elevation">4dp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="text_size_large">28sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_score">48sp</dimen>
+    
+    <!-- Spacing -->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+    
+    <!-- Progress bar -->
+    <dimen name="progress_bar_height">8dp</dimen>
+    <dimen name="progress_bar_radius">4dp</dimen>
+</resources>

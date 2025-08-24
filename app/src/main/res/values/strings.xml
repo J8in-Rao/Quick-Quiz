@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quick Quiz</string>
+    
+    <!-- Main screen -->
+    <string name="welcome_title">Welcome to Quick Quiz</string>
+    <string name="welcome_subtitle">Test your knowledge with our interactive quizzes</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="quiz_description">Challenge yourself with multiple choice questions</string>
+    
+    <!-- Quiz screen -->
+    <string name="question_counter">Question %1$d of %2$d</string>
+    <string name="next_question">Next</string>
+    <string name="finish_quiz">Finish Quiz</string>
+    <string name="select_answer">Select an answer</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="time_remaining">Time remaining: %1$s</string>
+    
+    <!-- Results -->
+    <string name="correct_answer">Correct!</string>
+    <string name="incorrect_answer">Incorrect!</string>
+    <string name="answer_submitted">Answer submitted!</string>
+    
+    <!-- Result screen -->
+    <string name="quiz_completed">Quiz Completed!</string>
+    <string name="your_score">Your Score</string>
+    <string name="score_format">%1$d/%2$d</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="retake_quiz">Retake Quiz</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="review_answers">Review Answers</string>
+    
+    <!-- Grades -->
+    <string name="grade_excellent">Excellent!</string>
+    <string name="grade_very_good">Very Good!</string>
+    <string name="grade_good">Good!</string>
+    <string name="grade_average">Average</string>
+    <string name="grade_needs_improvement">Needs Improvement</string>
+    
+    <!-- General -->
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="not_answered">Not Answered</string>
+    
+    <!-- Exit confirmation -->
+    <string name="exit_quiz_title">Exit Quiz?</string>
+    <string name="exit_quiz_message">Are you sure you want to exit? Your progress will be lost.</string>
+    <string name="exit_quiz_confirm">Exit</string>
+    <string name="continue_quiz">Continue Quiz</string>
+</resources>
