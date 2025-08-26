@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="6" by="lint 8.1.4">
+<issues format="6" by="lint 8.12.1">
 
     <issue
         id="MissingSuperCall"
@@ -24,7 +24,7 @@
         category="Correctness"
         priority="7"
         summary="ScrollView size validation"
-        explanation="ScrollView children must set their `layout_width` or `layout_height` attributes to `wrap_content` rather than `fill_parent` or `match_parent` in the scrolling dimension"
+        explanation="ScrollView children must set their `layout_width` or `layout_height` attributes to `wrap_content` rather than `fill_parent` or `match_parent` in the scrolling dimension."
         errorLine1="            android:layout_height=&quot;match_parent&quot;"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -196,11 +196,11 @@
     <issue
         id="OldTargetApi"
         severity="Warning"
-        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details."
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
         category="Correctness"
         priority="6"
         summary="Target SDK attribute is not targeting latest version"
-        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.&#xA;&#xA;To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: https://developer.android.com/reference/android/os/Build.VERSION_CODES.html as well as follow this guide:&#xA;https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        explanation="When your application or sdk runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.&#xA;&#xA;To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: https://developer.android.com/reference/android/os/Build.VERSION_CODES.html as well as follow this guide:&#xA;https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
         url="https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
         urls="https://developer.android.com/distribute/best-practices/develop/target-sdk.html,https://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
         errorLine1="        targetSdk 34"
@@ -209,6 +209,38 @@
             file="C:\Users\great\CODING\ANDROID\qoder\app\build.gradle"
             line="14"
             column="9"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        severity="Warning"
+        message="A newer version of Gradle than 8.13 is available: 8.14.3"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Android Gradle Plugin Version"
+        explanation="This detector looks for usage of the Android Gradle Plugin where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\gradle\wrapper\gradle-wrapper.properties"
+            line="3"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of `compileSdkVersion` than 34 is available: 36"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    compileSdk 34"
+        errorLine2="    ~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\build.gradle"
+            line="9"
+            column="5"/>
     </issue>
 
     <issue
@@ -795,10 +827,10 @@
         priority="3"
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
-        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine1="&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
         errorLine2="^">
         <location
-            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml"
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\res\mipmap-hdpi\ic_launcher.xml"
             line="2"
             column="1"/>
     </issue>
@@ -843,10 +875,10 @@
         priority="3"
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
-        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine1="&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
         errorLine2="^">
         <location
-            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml"
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\res\mipmap-hdpi\ic_launcher_round.xml"
             line="2"
             column="1"/>
     </issue>
@@ -1185,6 +1217,118 @@
             file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\res\values\styles.xml"
             line="107"
             column="12"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="            sharedPreferences.edit().putInt(KEY_BEST_SCORE, score).apply()"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\java\com\quickquiz\app\utils\PreferencesManager.kt"
+            line="28"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sharedPreferences.edit().putInt(KEY_TOTAL_QUIZZES_COMPLETED, current + 1).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\java\com\quickquiz\app\utils\PreferencesManager.kt"
+            line="39"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sharedPreferences.edit().putInt(KEY_TOTAL_QUESTIONS_ANSWERED, current + count).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\java\com\quickquiz\app\utils\PreferencesManager.kt"
+            line="48"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sharedPreferences.edit().putInt(KEY_TOTAL_CORRECT_ANSWERS, current + count).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\java\com\quickquiz\app\utils\PreferencesManager.kt"
+            line="57"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sharedPreferences.edit().putBoolean(KEY_SOUND_ENABLED, enabled).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\java\com\quickquiz\app\utils\PreferencesManager.kt"
+            line="72"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sharedPreferences.edit().putBoolean(KEY_VIBRATION_ENABLED, enabled).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\java\com\quickquiz\app\utils\PreferencesManager.kt"
+            line="80"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        if (binding.btnNext.visibility == View.VISIBLE) {"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\great\CODING\ANDROID\qoder\app\src\main\java\com\quickquiz\app\ui\QuizActivity.kt"
+            line="114"
+            column="13"/>
     </issue>
 
     <issue

@@ -5,10 +5,10 @@ library {
   maven_library {
     groupId: "androidx.databinding"
     artifactId: "viewbinding"
-    version: "8.1.4"
+    version: "8.12.1"
   }
   digests {
-    sha256: "\347\035\247j\027\261\213\344\374\000\3059dJF\370\344a\ad\312\224\206\216\341\r;\3476\360\314h"
+    sha256: "\221d\302;\311#\'\3507x\023\377\305\335\361{\253,&\217\213H\264\323\251N\340@\374T\233\334"
   }
   repo_index {
   }

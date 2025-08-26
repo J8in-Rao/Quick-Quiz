@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".ui.QuizActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <!-- Question and Options Combined with Progress Bar -->
+            <LinearLayout
+                style="@style/GlassCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp">
+
+                <!-- Progress Bar at top of question section -->
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="@style/GlassProgressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:max="100"
+                    android:progress="10"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:id="@+id/tvQuestion"
+                    style="@style/QuestionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    tools:text="What is the capital of France?" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupOptions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Radio buttons will be added programmatically -->
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!-- Result Display -->
+            <LinearLayout
+                android:id="@+id/llResultContainer"
+                style="@style/GlassCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvResult"
+                    style="@style/SubtitleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    tools:text="Correct!" />
+
+                <TextView
+                    android:id="@+id/tvExplanation"
+                    style="@style/SubtitleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    tools:text="Paris is the capital of France." />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Submit Button Container at Bottom -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:text="@string/submit_answer"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:minHeight="56dp"
+            android:elevation="4dp"
+            android:enabled="false"
+            android:background="@drawable/submit_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:text="@string/next_question"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:minHeight="56dp"
+            android:elevation="4dp"
+            android:visibility="gone"
+            android:background="@drawable/blue_glassy_button_background" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Quiz Brain Background Circle -->
+    <path
+        android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"
+        android:fillColor="#2196F3"
+        android:fillAlpha="0.9" />
+    
+    <!-- Brain Shape -->
+    <path
+        android:pathData="M44,42c-2,0 -4,1 -5,3c-1,-1 -2,-1 -3,-1c-3,0 -5,2 -5,5c0,1 0,2 1,3c-1,1 -1,2 -1,3c0,3 2,5 5,5c1,0 2,0 3,-1c1,2 3,3 5,3c1,0 2,0 3,-1c1,1 2,1 3,1c3,0 5,-2 5,-5c0,-1 0,-2 -1,-3c1,-1 1,-2 1,-3c0,-3 -2,-5 -5,-5c-1,0 -2,0 -3,1C48,43 46,42 44,42z"
+        android:fillColor="#FFFFFF" />
+    
+    <!-- Question Mark -->
+    <path
+        android:pathData="M54,44c-3,0 -5,2 -5,5h2c0,-2 1,-3 3,-3s3,1 3,3c0,1 -1,2 -2,3l-1,1v2h2v-1l1,-1c1,-1 2,-2 2,-4C59,46 57,44 54,44z"
+        android:fillColor="#FFFFFF" />
+    
+    <!-- Question Mark Dot -->
+    <path
+        android:pathData="M53,58h2v2h-2z"
+        android:fillColor="#FFFFFF" />
+    
+    <!-- Quiz Lines/Text Effect -->
+    <path
+        android:pathData="M64,46h8v1h-8z"
+        android:fillColor="#64B5F6"
+        android:fillAlpha="0.7" />
+    
+    <path
+        android:pathData="M64,50h6v1h-6z"
+        android:fillColor="#64B5F6"
+        android:fillAlpha="0.7" />
+    
+    <path
+        android:pathData="M64,54h8v1h-8z"
+        android:fillColor="#64B5F6"
+        android:fillAlpha="0.7" />
+    
+    <path
+        android:pathData="M64,58h5v1h-5z"
+        android:fillColor="#64B5F6"
+        android:fillAlpha="0.7" />
+        
+</vector>

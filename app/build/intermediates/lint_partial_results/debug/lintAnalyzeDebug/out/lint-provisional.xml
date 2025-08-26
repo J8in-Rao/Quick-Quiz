@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.12.1" type="conditional_incidents">
+
+    <incident
+        id="GestureBackNavigation"
+        severity="warning"
+        message="`onBackPressed` is no longer called for back gestures; migrate to AndroidX&apos;s backward compatible `OnBackPressedDispatcher`">
+        <show-url
+            description="Show https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture"
+            url="https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="355"
+            column="18"
+            startOffset="14539"
+            endLine="355"
+            endColumn="31"
+            endOffset="14552"/>
+    </incident>
+
+    <incident
+        id="GestureBackNavigation"
+        severity="warning"
+        message="`onBackPressed` is no longer called for back gestures; migrate to AndroidX&apos;s backward compatible `OnBackPressedDispatcher`">
+        <show-url
+            description="Show https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture"
+            url="https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/ResultActivity.kt"
+            line="137"
+            column="18"
+            startOffset="4646"
+            endLine="137"
+            endColumn="31"
+            endOffset="4659"/>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="77"
+            column="73"
+            startOffset="3074"
+            endLine="77"
+            endColumn="106"
+            endOffset="3107"/>
+        <map>
+            <entry
+                name="message"
+                string="Field requires API level 26 (current min is %1$s): `android.os.VibrationEffect#DEFAULT_AMPLITUDE`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="DEFAULT_AMPLITUDE"/>
+            <entry
+                name="owner"
+                string="android.os.VibrationEffect"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="78"
+            column="75"
+            startOffset="3183"
+            endLine="78"
+            endColumn="108"
+            endOffset="3216"/>
+        <map>
+            <entry
+                name="message"
+                string="Field requires API level 26 (current min is %1$s): `android.os.VibrationEffect#DEFAULT_AMPLITUDE`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="DEFAULT_AMPLITUDE"/>
+            <entry
+                name="owner"
+                string="android.os.VibrationEffect"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="80"
+            column="74"
+            startOffset="3394"
+            endLine="80"
+            endColumn="107"
+            endOffset="3427"/>
+        <map>
+            <entry
+                name="message"
+                string="Field requires API level 26 (current min is %1$s): `android.os.VibrationEffect#DEFAULT_AMPLITUDE`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="DEFAULT_AMPLITUDE"/>
+            <entry
+                name="owner"
+                string="android.os.VibrationEffect"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="77"
+            column="55"
+            startOffset="3056"
+            endLine="77"
+            endColumn="68"
+            endOffset="3069"/>
+        <map>
+            <entry
+                name="desc"
+                string="(JI)"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `android.os.VibrationEffect#createOneShot`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="createOneShot"/>
+            <entry
+                name="owner"
+                string="android.os.VibrationEffect"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="78"
+            column="56"
+            startOffset="3164"
+            endLine="78"
+            endColumn="69"
+            endOffset="3177"/>
+        <map>
+            <entry
+                name="desc"
+                string="(JI)"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `android.os.VibrationEffect#createOneShot`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="createOneShot"/>
+            <entry
+                name="owner"
+                string="android.os.VibrationEffect"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="79"
+            column="57"
+            startOffset="3274"
+            endLine="79"
+            endColumn="71"
+            endOffset="3288"/>
+        <map>
+            <entry
+                name="desc"
+                string="([JI)"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `android.os.VibrationEffect#createWaveform`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="createWaveform"/>
+            <entry
+                name="owner"
+                string="android.os.VibrationEffect"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="80"
+            column="55"
+            startOffset="3375"
+            endLine="80"
+            endColumn="68"
+            endOffset="3388"/>
+        <map>
+            <entry
+                name="desc"
+                string="(JI)"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `android.os.VibrationEffect#createOneShot`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="createOneShot"/>
+            <entry
+                name="owner"
+                string="android.os.VibrationEffect"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="82"
+            column="22"
+            startOffset="3464"
+            endLine="82"
+            endColumn="29"
+            endOffset="3471"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Landroid.os.VibrationEffect;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `android.os.Vibrator#vibrate`"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <entry
+                name="name"
+                string="vibrate"/>
+            <entry
+                name="owner"
+                string="android.os.Vibrator"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="42"
+            column="15"
+            startOffset="2018"
+            endLine="42"
+            endColumn="53"
+            endOffset="2056"/>
+        <map>
+            <entry
+                name="message"
+                string="`android:layout_marginHorizontal` requires API level 26 (current min is %1$s)"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="24-∞" requiresApi="26-∞"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="88"
+            column="15"
+            startOffset="4000"
+            endLine="88"
+            endColumn="53"
+            endOffset="4038"/>
+        <map>
+            <entry
+                name="message"
+                string="`android:layout_marginHorizontal` requires API level 26 (current min is %1$s)"/>
+            <api-levels id="minSdk"
+                value="24-∞"/>
+            <api-levels id="requiresApi"
+                value="26-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_launcher.xml"
+            line="11"
+            column="28"
+            startOffset="356"
+            endLine="11"
+            endColumn="49"
+            endOffset="377"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_radio_checked.xml"
+            line="11"
+            column="28"
+            startOffset="501"
+            endLine="11"
+            endColumn="45"
+            endOffset="518"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_radio_checked.xml"
+            line="16"
+            column="28"
+            startOffset="718"
+            endLine="16"
+            endColumn="45"
+            endOffset="735"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_radio_unchecked.xml"
+            line="11"
+            column="28"
+            startOffset="524"
+            endLine="11"
+            endColumn="49"
+            endOffset="545"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 31">
+        <fix-replace
+            description="Delete tools:targetApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+                startOffset="500"
+                endOffset="520"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="14"
+            column="9"
+            startOffset="500"
+            endLine="14"
+            endColumn="29"
+            endOffset="520"/>
+        <map>
+            <condition minGE="31-∞"/>
+        </map>
+    </incident>
+
+</incidents>

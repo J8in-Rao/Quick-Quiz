@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.12.1" type="incidents">
+
+    <incident
+        id="MissingSuperCall"
+        severity="error"
+        message="Overriding method should call `super.onBackPressed`">
+        <fix-data/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/ResultActivity.kt"
+            line="137"
+            column="18"
+            startOffset="4646"
+            endLine="137"
+            endColumn="31"
+            endOffset="4659"/>
+    </incident>
+
+    <incident
+        id="ScrollViewSize"
+        severity="warning"
+        message="This LinearLayout should use `android:layout_height=&quot;wrap_content&quot;`">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_quiz.xml"
+            line="22"
+            column="13"
+            startOffset="926"
+            endLine="22"
+            endColumn="49"
+            endOffset="962"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 36"
+            oldString="34"
+            replacement="36"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="14"
+            column="9"
+            startOffset="261"
+            endLine="14"
+            endColumn="21"
+            endOffset="273"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of Gradle than 8.13 is available: 8.14.3">
+        <fix-replace
+            description="Update to 8.14.3"
+            oldString="8.13"
+            replacement="8.14.3"
+            priority="0"/>
+        <location
+            file="$HOME/CODING/ANDROID/qoder/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"
+            startOffset="81"
+            endLine="3"
+            endColumn="79"
+            endOffset="143"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of `compileSdkVersion` than 34 is available: 36">
+        <fix-replace
+            description="Set compileSdkVersion to 36"
+            oldString="34"
+            replacement="36"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="9"
+            column="5"
+            startOffset="158"
+            endLine="9"
+            endColumn="18"
+            endOffset="171"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.17.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="48"
+            column="20"
+            startOffset="958"
+            endLine="48"
+            endColumn="51"
+            endOffset="989"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="49"
+            column="20"
+            startOffset="1009"
+            endLine="49"
+            endColumn="56"
+            endOffset="1045"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.12.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="50"
+            column="20"
+            startOffset="1065"
+            endLine="50"
+            endColumn="65"
+            endOffset="1110"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="51"
+            column="20"
+            startOffset="1130"
+            endLine="51"
+            endColumn="70"
+            endOffset="1180"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.2">
+        <fix-replace
+            description="Change to 2.9.2"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.9.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="52"
+            column="20"
+            startOffset="1200"
+            endLine="52"
+            endColumn="70"
+            endOffset="1250"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.8.2"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="53"
+            column="20"
+            startOffset="1270"
+            endLine="53"
+            endColumn="58"
+            endOffset="1308"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1039"
+                    endOffset="1044"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1044"
+                    endOffset="1045"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1045"
+                    endOffset="1046"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1075"
+                    endOffset="1083"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+            line="28"
+            column="13"
+            startOffset="1021"
+            endLine="28"
+            endColumn="37"
+            endOffset="1045"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1361"
+                    endOffset="1366"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1366"
+                    endOffset="1367"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1367"
+                    endOffset="1368"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1416"
+                    endOffset="1424"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+            line="39"
+            column="9"
+            startOffset="1343"
+            endLine="39"
+            endColumn="33"
+            endOffset="1367"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1688"
+                    endOffset="1693"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1693"
+                    endOffset="1694"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1694"
+                    endOffset="1695"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="1748"
+                    endOffset="1756"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+            line="48"
+            column="9"
+            startOffset="1670"
+            endLine="48"
+            endColumn="33"
+            endOffset="1694"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2008"
+                    endOffset="2013"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2013"
+                    endOffset="2014"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2014"
+                    endOffset="2015"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2065"
+                    endOffset="2073"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+            line="57"
+            column="9"
+            startOffset="1990"
+            endLine="57"
+            endColumn="33"
+            endOffset="2014"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2514"
+                    endOffset="2519"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2519"
+                    endOffset="2520"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2520"
+                    endOffset="2521"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2559"
+                    endOffset="2567"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+            line="72"
+            column="9"
+            startOffset="2496"
+            endLine="72"
+            endColumn="33"
+            endOffset="2520"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2777"
+                    endOffset="2782"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2782"
+                    endOffset="2783"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2783"
+                    endOffset="2784"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+                    startOffset="2826"
+                    endOffset="2834"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/utils/PreferencesManager.kt"
+            line="80"
+            column="9"
+            startOffset="2759"
+            endLine="80"
+            endColumn="33"
+            endOffset="2783"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension property `View.isVisible` instead?">
+        <fix-replace
+            description="Replace with the isVisible extension property"
+            family="Replace with the isVisible extension property"
+            robot="true"
+            independent="true"
+            oldString="binding.btnNext.visibility == View.VISIBLE"
+            replacement="binding.btnNext.isVisible"
+            reformat="value"
+            imports="androidx.core.view.isVisible"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+                startOffset="4327"
+                endOffset="4369"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/quickquiz/app/ui/QuizActivity.kt"
+            line="114"
+            column="13"
+            startOffset="4327"
+            endLine="114"
+            endColumn="55"
+            endOffset="4369"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="23"
+            column="14"
+            startOffset="858"
+            endLine="23"
+            endColumn="23"
+            endOffset="867"/>
+    </incident>
+
+</incidents>

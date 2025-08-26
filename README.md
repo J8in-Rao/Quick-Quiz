@@ -8,41 +8,39 @@
 
 ### 🎯 Key Features
 
-- **Modern Glassmorphism UI**: Beautiful transparent cards with gradient backgrounds and blur effects
-- **Interactive Multiple Choice Questions**: Smooth radio button interactions with visual feedback
+- **Modern Glassmorphism UI**: Beautiful transparent design with gradient backgrounds and blur effects
+- **Interactive Multiple Choice Questions**: Smooth interactions with visual feedback
 - **Real-time Progress Tracking**: Animated progress bar showing quiz completion
-- **Haptic Feedback**: Tactile responses for button interactions and answer results
-- **Smart Result System**: Immediate feedback with color-coded correct/incorrect answers
-- **Statistics Tracking**: Personal best scores and completion statistics using SharedPreferences
 - **Confirmation Dialogs**: Prevents accidental quiz exits with user-friendly confirmations
-- **Responsive Animations**: Smooth transitions between questions and button state changes
 - **Educational Explanations**: Detailed explanations for each question after submission
 
 ### 🛠️ Technology Stack
 
-- **Language**: Kotlin 1.9.20
-- **Platform**: Android (Min SDK 24, Target SDK 34)
-- **Architecture**: MVVM Pattern with Data Binding
+- **Language**: Kotlin
+- **Platform**: Android
 - **UI Framework**: Material Design 3 with custom glassmorphism components
 - **Build Tool**: Gradle
-- **Testing**: JUnit 4, Espresso
+
+
+### Important 
+- ** There is a compatablity issue with gradle and jdk i cant figure out. :(
 
 ## 🏗️ Project Architecture
 
 ### Package Structure
 ```
 com.quickquiz.app/
-├── data/           # Data providers and repositories
+├── data/           
 │   └── QuizDataProvider.kt
-├── model/          # Data models and entities
+├── model/          
 │   ├── Question.kt
 │   ├── Quiz.kt
 │   └── QuizResult.kt
-├── ui/             # User interface activities
+├── ui/             
 │   ├── MainActivity.kt
 │   ├── QuizActivity.kt
 │   └── ResultActivity.kt
-└── utils/          # Utility classes
+└── utils/          
     └── PreferencesManager.kt
 ```
 
@@ -68,7 +66,6 @@ The app implements modern glassmorphism design principles:
 - **Transparent backgrounds** with subtle opacity
 - **Gradient overlays** for depth and visual appeal
 - **Blur effects** using drawable layers
-- **Elevated cards** with proper shadow and highlighting
 
 ### Animation System
 - **Question transitions**: Smooth slide-in animations for new questions
@@ -77,7 +74,6 @@ The app implements modern glassmorphism design principles:
 - **Result feedback**: Scale and fade animations for answer results
 
 ### Interactive Feedback
-- **Haptic feedback** with customizable intensity levels
 - **Color-coded responses**: Green for correct, red for incorrect answers
 - **Visual state management**: Button states change based on user selection
 
@@ -96,20 +92,6 @@ fun submitAnswer() {
 }
 ```
 
-### 2. Haptic Feedback System
-```kotlin
-enum class FeedbackType {
-    LIGHT,    // Option selection
-    MEDIUM,   // Button presses
-    SUCCESS,  // Correct answers
-    ERROR     // Incorrect answers
-}
-```
-
-### 3. Statistics Tracking
-- **Best Score Persistence**: Automatically saves and displays personal best
-- **Completion Tracking**: Counts total quizzes completed
-- **Accuracy Calculation**: Overall accuracy percentage across all attempts
 
 ## 🚀 Installation & Setup
 
@@ -163,10 +145,6 @@ During this internship project, I gained valuable experience in:
 ### Technical Skills Developed
 
 1. **Android Development Fundamentals**:
-   - Activity lifecycle management
-   - Intent-based navigation between screens
-   - ViewBinding for efficient view access
-   - Material Design implementation
 
 2. **Kotlin Programming**:
    - Data classes and sealed classes
@@ -209,23 +187,6 @@ During this internship project, I gained valuable experience in:
    - **Issue**: Smooth animations on lower-end devices
    - **Solution**: Optimized drawable resources and used hardware acceleration
 
-### Software Engineering Practices
-
-1. **Clean Code Architecture**:
-   - Separation of concerns with distinct packages
-   - Single Responsibility Principle in class design
-   - Meaningful naming conventions
-
-2. **Version Control**:
-   - Git workflow with feature branches
-   - Meaningful commit messages
-   - Code review practices
-
-3. **Testing Approach**:
-   - Unit testing with JUnit
-   - UI testing considerations
-   - Manual testing procedures
-
 ## 🔮 Future Enhancements
 
 ### Planned Features
@@ -238,45 +199,25 @@ During this internship project, I gained valuable experience in:
 7. **Timer Challenges**: Time-limited quiz modes
 8. **Achievement System**: Badges and rewards for milestones
 
-### Technical Improvements
-1. **Database Integration**: Room database for offline storage
-2. **API Integration**: Fetch questions from online sources
-3. **Architecture Enhancement**: Repository pattern with clean architecture
-4. **Testing Coverage**: Comprehensive unit and integration tests
-5. **Performance Monitoring**: Analytics and crash reporting
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-### Development Guidelines
-1. Follow Kotlin coding conventions
-2. Write meaningful commit messages
-3. Add comments for complex logic
-4. Test your changes thoroughly
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- **Internship Supervisor**: For guidance and code review feedback
 - **Android Developer Community**: For best practices and design inspiration
 - **Material Design Guidelines**: For UI/UX design principles
 - **Kotlin Community**: For language-specific best practices
 
 ## 📞 Contact
 
-**Developer**: [Your Name]  
-**Email**: [your.email@example.com]  
-**LinkedIn**: [Your LinkedIn Profile]  
-**GitHub**: [Your GitHub Profile]  
+**Developer**: Jatin Kumar  
+**Email**: j8in.rao@gmail.com  
+**LinkedIn**: https://www.linkedin.com/in/rao-jatin-kumar/  
+**GitHub**: https://github.com/J8in-Rao 
 
-**Institution**: [Your College/University Name]  
-**Program**: Bachelor of Computer Applications (BCA)  
-**Year**: Third Year  
-**Internship Duration**: [Start Date] - [End Date]  
+ 
 
 ---
 

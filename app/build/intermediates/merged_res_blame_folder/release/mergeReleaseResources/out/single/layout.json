@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.quickquiz.app-mergeReleaseResources-35:/layout/activity_result.xml",
+        "source": "com.quickquiz.app-main-37:/layout/activity_result.xml"
+    },
+    {
+        "merged": "com.quickquiz.app-mergeReleaseResources-35:/layout/activity_main.xml",
+        "source": "com.quickquiz.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.quickquiz.app-mergeReleaseResources-35:/layout/activity_quiz.xml",
+        "source": "com.quickquiz.app-main-37:/layout/activity_quiz.xml"
+    }
+]
