@@ -104,7 +104,7 @@ fun submitAnswer() {
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/quick-quiz.git
+   git clone https://github.com/J8in-Rao/Quick-Quiz.git
    cd quick-quiz
    ```
 
