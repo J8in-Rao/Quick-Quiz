@@ -12,10 +12,6 @@
         "source": "com.quickquiz.app-main-38:/mipmap-hdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.quickquiz.app-merged_res-36:/anim_progress_fill.xml.flat",
-        "source": "com.quickquiz.app-main-38:/anim/progress_fill.xml"
-    },
-    {
         "merged": "com.quickquiz.app-merged_res-36:/drawable_submit_button_background.xml.flat",
         "source": "com.quickquiz.app-main-38:/drawable/submit_button_background.xml"
     },
@@ -82,10 +78,6 @@
     {
         "merged": "com.quickquiz.app-merged_res-36:/drawable_ic_launcher.xml.flat",
         "source": "com.quickquiz.app-main-38:/drawable/ic_launcher.xml"
-    },
-    {
-        "merged": "com.quickquiz.app-merged_res-36:/drawable_red_button_background.xml.flat",
-        "source": "com.quickquiz.app-main-38:/drawable/red_button_background.xml"
     },
     {
         "merged": "com.quickquiz.app-merged_res-36:/drawable_radio_button_background.xml.flat",

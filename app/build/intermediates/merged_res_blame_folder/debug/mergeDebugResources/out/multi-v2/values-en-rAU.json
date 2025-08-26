@@ -4,7 +4,7 @@
             "outputFile": "com.quickquiz.app-mergeDebugResources-34:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\b0f854578358e09be0538320ba86ccce\\transformed\\appcompat-1.6.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\2d3271ff831f19b9ee34c5a53534db30\\transformed\\appcompat-1.6.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\3364159a594288a365c888364f105a83\\transformed\\core-1.12.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\e5ef0cd590c9177c2a86d53ab5197851\\transformed\\core-1.12.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

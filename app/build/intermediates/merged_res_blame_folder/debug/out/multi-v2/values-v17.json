@@ -4,7 +4,7 @@
             "outputFile": "com.quickquiz.app-mergeDebugResources-34:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\8.10\\transforms\\2e4bec81a5fe7d2beaaa8141f7cbea8a\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\3c06fae5724aa59b4501aca289e13e07\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

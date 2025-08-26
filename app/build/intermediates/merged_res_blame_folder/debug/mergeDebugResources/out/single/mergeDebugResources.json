@@ -60,10 +60,6 @@
         "source": "com.quickquiz.app-main-38:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.quickquiz.app-debug-36:/anim_progress_fill.xml.flat",
-        "source": "com.quickquiz.app-main-38:/anim/progress_fill.xml"
-    },
-    {
         "merged": "com.quickquiz.app-debug-36:/drawable_ic_radio_unchecked.xml.flat",
         "source": "com.quickquiz.app-main-38:/drawable/ic_radio_unchecked.xml"
     },
@@ -74,10 +70,6 @@
     {
         "merged": "com.quickquiz.app-debug-36:/drawable_app_icon.xml.flat",
         "source": "com.quickquiz.app-main-38:/drawable/app_icon.xml"
-    },
-    {
-        "merged": "com.quickquiz.app-debug-36:/drawable_red_button_background.xml.flat",
-        "source": "com.quickquiz.app-main-38:/drawable/red_button_background.xml"
     },
     {
         "merged": "com.quickquiz.app-debug-36:/drawable_glass_button_background.xml.flat",

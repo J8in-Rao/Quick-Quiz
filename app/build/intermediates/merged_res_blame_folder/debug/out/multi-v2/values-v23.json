@@ -4,7 +4,7 @@
             "outputFile": "com.quickquiz.app-mergeDebugResources-34:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\8.10\\transforms\\384581b611a3e3adbd1933b85cdc06f9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\c1274fe2370b81ee21caccfbb99e2d24\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\8.10\\transforms\\2e4bec81a5fe7d2beaaa8141f7cbea8a\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\3c06fae5724aa59b4501aca289e13e07\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\8.10\\transforms\\8f1e58e7b0cd8f2deea13f6c69730e25\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\8.13\\transforms\\ea7acb52497900c86ebb31dffceea5e7\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

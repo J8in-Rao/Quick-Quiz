@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Disabled state (dark white glassy translucent) -->
+    <item android:state_enabled="false">
+        <layer-list>
+            <!-- Base glass background -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#80FFFFFF" />
+                    <corners android:radius="16dp" />
+                    <stroke
+                        android:width="1dp"
+                        android:color="#60E0E0E0" />
+                </shape>
+            </item>
+            <!-- Highlight overlay -->
+            <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="8dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#30FFFFFF" />
+                    <corners android:radius="14dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    
+    <!-- Pressed state (darker blue glassy) -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Base glass background -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#CC1976D2" />
+                    <corners android:radius="16dp" />
+                    <stroke
+                        android:width="1dp"
+                        android:color="#801565C0" />
+                </shape>
+            </item>
+            <!-- Highlight overlay -->
+            <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="8dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#4064B5F6" />
+                    <corners android:radius="14dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    
+    <!-- Enabled state (blue glassy) -->
+    <item>
+        <layer-list>
+            <!-- Base glass background -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#CC2196F3" />
+                    <corners android:radius="16dp" />
+                    <stroke
+                        android:width="1dp"
+                        android:color="#801976D2" />
+                </shape>
+            </item>
+            <!-- Highlight overlay -->
+            <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="8dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#4064B5F6" />
+                    <corners android:radius="14dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    
+</selector>

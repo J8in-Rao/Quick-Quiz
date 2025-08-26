@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="error_color">#F44336</color>
+    <color name="glass_background">#F0F0F0</color>
+    <color name="glass_border">#B3E0E0E0</color>
+    <color name="glass_correct">#334CAF50</color>
+    <color name="glass_incorrect">#33F44336</color>
+    <color name="glass_selected">#4D2196F3</color>
+    <color name="glass_surface">#E6FFFFFF</color>
+    <color name="glass_surface_variant">#CCFFFFFF</color>
+    <color name="gradient_accent_end">#BBDEFB</color>
+    <color name="gradient_accent_start">#E3F2FD</color>
+    <color name="gradient_end">#C3CFE2</color>
+    <color name="gradient_start">#F5F7FA</color>
+    <color name="info_color">#2196F3</color>
+    <color name="progress_bar_filled">#2196F3</color>
+    <color name="progress_bar_unfilled">#E0E0E0</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#4D1A1A1A</color>
+    <color name="text_tertiary">#801A1A1A</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="button_elevation">4dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="button_radius">16dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_radius">20dp</dimen>
+    <dimen name="option_margin_horizontal">12dp</dimen>
+    <dimen name="option_margin_vertical">6dp</dimen>
+    <dimen name="option_padding">16dp</dimen>
+    <dimen name="progress_bar_height">8dp</dimen>
+    <dimen name="progress_bar_radius">4dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+    <dimen name="text_size_large">28sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_score">48sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <string name="answer_submitted">Answer submitted!</string>
+    <string name="app_name">Quick Quiz</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="continue_quiz">Continue Quiz</string>
+    <string name="correct">Correct</string>
+    <string name="correct_answer">Correct!</string>
+    <string name="exit_quiz_confirm">Exit</string>
+    <string name="exit_quiz_message">Are you sure you want to exit? Your progress will be lost.</string>
+    <string name="exit_quiz_title">Exit Quiz?</string>
+    <string name="finish_quiz">Finish Quiz</string>
+    <string name="grade_average">Average</string>
+    <string name="grade_excellent">Excellent!</string>
+    <string name="grade_good">Good!</string>
+    <string name="grade_needs_improvement">Needs Improvement</string>
+    <string name="grade_very_good">Very Good!</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="incorrect_answer">Incorrect!</string>
+    <string name="next_question">Next</string>
+    <string name="not_answered">Not Answered</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="question_counter">Question %1$d of %2$d</string>
+    <string name="quiz_completed">Quiz Completed!</string>
+    <string name="quiz_description">Challenge yourself with multiple choice questions</string>
+    <string name="retake_quiz">Retake Quiz</string>
+    <string name="review_answers">Review Answers</string>
+    <string name="score_format">%1$d/%2$d</string>
+    <string name="select_answer">Select an answer</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="time_remaining">Time remaining: %1$s</string>
+    <string name="welcome_subtitle">Test your knowledge with our interactive quizzes</string>
+    <string name="welcome_title">Welcome to Quick Quiz</string>
+    <string name="your_score">Your Score</string>
+    <style name="GlassButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/glass_button_background</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    <style name="GlassCard">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/glass_card_background</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="GlassProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/glass_progress_bar</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_height">8dp</item>
+    </style>
+    <style name="GlassRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginHorizontal">12dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/radio_button_background</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    <style name="OptionButton" parent="GlassButton">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginHorizontal">12dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/option_button_selector</item>
+    </style>
+    <style name="QuestionText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+    <style name="ScoreText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="SubmitButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    <style name="SubtitleText">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="Theme.QuickQuiz" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="TitleText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+</resources>

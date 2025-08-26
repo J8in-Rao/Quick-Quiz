@@ -3,7 +3,6 @@ local
 anim button_fade_in
 anim button_fade_out
 anim fade_scale_in
-anim progress_fill
 anim slide_in_right
 color black
 color error_color
@@ -68,7 +67,6 @@ drawable ic_radio_checked
 drawable ic_radio_unchecked
 drawable option_button_selector
 drawable radio_button_background
-drawable red_button_background
 drawable submit_button_background
 id btnBackToHome
 id btnNext
